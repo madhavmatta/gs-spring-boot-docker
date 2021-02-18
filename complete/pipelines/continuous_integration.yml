@@ -2,14 +2,14 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      gitProvider: my_github
-      path: batelt/gs-spring-boot-docker
+      gitProvider: devnexusgit
+      path: mmatta/gs-spring-boot-docker
       branches:
         include: master
   - name: myBuildInfo
     type: BuildInfo
     configuration:
-      sourceArtifactory: art
+      sourceArtifactory: devnexusartifactory
       buildName: SpringBootContained
       buildNumber: 1
 pipelines:
