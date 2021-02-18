@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: devnexusgit
-      path: mmatta/gs-spring-boot-docker
+      path: madhavmatta/gs-spring-boot-docker
       branches:
         include: master
   - name: myBuildInfo
